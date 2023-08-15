@@ -70,7 +70,6 @@ first_interest="${interest_array[0]}"
 cleaned_first_interest=$(echo "$first_interest" | tr -d ', ')
 available_chars="${cleaned_first_interest}abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_-+=<>?"
 
-# Gera senhas combinando o primeiro interesse com os outros quatro
 combined_passwords=()
 for ((i = 1; i <= 5; i++)); do
     if [ $i -eq 1 ]; then
@@ -82,7 +81,6 @@ for ((i = 1; i <= 5; i++)); do
     fi
 done
 
-# Gera senhas aleatórias
 all_passwords=()
 for ((i = 1; i <= quantity; i++)); do
     if [ $i -le ${#combined_passwords[@]} ]; then
