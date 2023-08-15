@@ -9,12 +9,14 @@ O BRUTALRAR é um script de linha de comando para gerar e testar senhas para arq
 
 - **bash**: O script foi projetado para ser executado em sistemas que suportam o shell bash.
 - **unrar**: Você deve ter o utilitário `unrar` instalado para testar as senhas nos arquivos RAR.
-
+- **lolcat**: Você deve ter o utilitário `lolcat` instalado para que o banner fique colorido.
 ## Uso
 
 Execute o script da seguinte forma:
 
-./BRUTALRAR.sh -i interesses -q quantidade -p arquivo.rar -f arquivo_ou_pasta -t tamanho_min,tamanho_max
+`chmod +x BrutalRAR.sh`
+
+`./BrutalRAR.sh -i interesses -q quantidade -p arquivo.rar -f arquivo_ou_pasta -t tamanho_min,tamanho_max`
 
 ### Opções
 
