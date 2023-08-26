@@ -38,10 +38,6 @@ Para gerar e testar 10 senhas com base em interesses como "gato,celular,moto", p
 
 Este script é fornecido como está e é para fins educacionais ou de teste. O uso indevido deste script pode violar as leis de privacidade e segurança. Use-o com responsabilidade e apenas em sistemas e arquivos que você tem permissão para acessar.
 
-## Licença
-
-Este projeto é licenciado sob a [Licença MIT](LICENSE).
-
 <div align="center">
 <h1>CONTATO</h1>
 <a href="https://www.instagram.com/slayerkkk_/" target="_blank">
